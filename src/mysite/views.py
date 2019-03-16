@@ -90,6 +90,7 @@ class FileView(APIView):
 
 class RegisterUser(APIView):
 
+    # test
     @action(methods=['post'], detail=False)
     def post(self, request, *args, **kwargs):
         print('tesing ...')
